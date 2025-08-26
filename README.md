@@ -84,7 +84,7 @@ The portfolio highlights my expertise across multiple domains:
 ### Portfolio Walkthrough Video
 <div class="video-container">
     <video width="600" height="340" controls>
-        <source src="the_final_recording.mp4" type="video/mp4">
+        <source src="final recording.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
