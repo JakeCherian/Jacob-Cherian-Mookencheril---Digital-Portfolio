@@ -69,13 +69,7 @@ The portfolio highlights my expertise across multiple domains:
 
 ## Visual Showcase
 
-<div class="media-grid">
-    <div class="media-item">
-        <video autoplay loop muted playsinline>
-            <source src="final cut 2.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+<div class="media-stack">
     <div class="media-item">
         <img src="Portfolio_Home.png" alt="Home Page Screenshot">
     </div>
@@ -88,38 +82,32 @@ The portfolio highlights my expertise across multiple domains:
 </div>
 
 <style>
-.media-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 70px; /* spacing between items */
-    justify-items: center;
+.media-stack {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding: 0 20px;
+    gap: 50px; /* space between images */
+    margin: 60px 20px;
 }
 
-.media-item img,
-.media-item video {
+.media-item img {
     width: 100%;
-    max-width: 520px;
+    max-width: 600px;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: 10px 0;
 }
 
-.media-item img:hover,
-.media-item video:hover {
+.media-item img:hover {
     transform: scale(1.05);
     box-shadow: 0 12px 30px rgba(0,0,0,0.4);
 }
 
+/* Responsive for smaller screens */
 @media (max-width: 768px) {
-    .media-grid {
-        grid-template-columns: 1fr;
-        gap: 50px;
+    .media-item img {
+        max-width: 90%;
     }
 }
 </style>
@@ -132,7 +120,7 @@ Through this portfolio, I aim to:
 - Present a **comprehensive view of my skills and projects**.  
 - Demonstrate how I combine **technical expertise with creative problem-solving**.  
 - Provide a **platform for collaboration, networking, and professional opportunities**.
-  
+
 ---
 
 ## Connect With Me
