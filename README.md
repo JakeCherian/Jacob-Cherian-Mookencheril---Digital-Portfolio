@@ -1,9 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-
 <h3 align="center">Jacob Cherian Mookencheril Portfolio</h3><br>
-
 </div>
 
 ## Overview
@@ -71,33 +69,64 @@ The portfolio highlights my expertise across multiple domains:
 
 ## Visual Showcase
 
-### Screenshot 1
-<div class="image-container">
-    <img src="Portfolio_Home.png" alt="Home Page Screenshot" width="400" height="300">
+<div class="media-grid">
+    <div class="media-item">
+        <video autoplay loop muted playsinline>
+            <source src="final cut 2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="media-item">
+        <img src="Portfolio_Home.png" alt="Home Page Screenshot">
+    </div>
+    <div class="media-item">
+        <img src="Portfolio_bio.png" alt="About Page Screenshot">
+    </div>
+    <div class="media-item">
+        <img src="Portfolio_Project.png" alt="Projects Page Screenshot">
+    </div>
 </div>
 
-### Screenshot 2
-<div class="image-container">
-    <img src="Portfolio_bio.png" alt="Projects Page Screenshot" width="400" height="300">
-</div>
+<style>
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px; /* spacing between items */
+    justify-items: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0 20px;
+}
 
-### Screenshot 3
-<div class="image-container">
-    <img src="Portfolio_Project.png" alt="Projects Page Screenshot" width="400" height="300">
-</div>
+.media-item img,
+.media-item video {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px 0;
+}
 
+.media-item img:hover,
+.media-item video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}
 
-### Portfolio Walkthrough Video
-<div class="video-container">
-    <video width="600" height="340" controls>
-        <source src="final recording.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</div>
+@media (max-width: 768px) {
+    .media-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}
+</style>
 
 ---
 
-## Achievements & Impact
+## Impact
 
 Through this portfolio, I aim to:  
 - Present a **comprehensive view of my skills and projects**.  
