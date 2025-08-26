@@ -69,48 +69,15 @@ The portfolio highlights my expertise across multiple domains:
 
 ## Visual Showcase
 
-<div class="media-stack">
-    <div class="media-item">
-        <img src="Portfolio_Home.png" alt="Home Page Screenshot">
-    </div>
-    <div class="media-item">
-        <img src="Portfolio_bio.png" alt="About Page Screenshot">
-    </div>
-    <div class="media-item">
-        <img src="Portfolio_Project.png" alt="Projects Page Screenshot">
-    </div>
-</div>
+<img src="Portfolio_Home.png" alt="Home Page Screenshot" width="600">
 
-<style>
-.media-stack {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px; /* space between images */
-    margin: 60px 20px;
-}
+<br><br>
 
-.media-item img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+<img src="Portfolio_bio.png" alt="About Page Screenshot" width="600">
 
-.media-item img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
-}
+<br><br>
 
-/* Responsive for smaller screens */
-@media (max-width: 768px) {
-    .media-item img {
-        max-width: 90%;
-    }
-}
-</style>
+<img src="Portfolio_Project.png" alt="Projects Page Screenshot" width="600">
 
 ---
 
