@@ -73,17 +73,17 @@ The portfolio highlights my expertise across multiple domains:
 
 ### Screenshot 1
 <div class="image-container">
-    <img src="Portfolio_Home.jpg" alt="Home Page Screenshot" width="400" height="300">
+    <img src="Portfolio_Home.png" alt="Home Page Screenshot" width="400" height="300">
 </div>
 
 ### Screenshot 2
 <div class="image-container">
-    <img src="Portfolio_bio.jpg" alt="Projects Page Screenshot" width="400" height="300">
+    <img src="Portfolio_bio.png" alt="Projects Page Screenshot" width="400" height="300">
 </div>
 
 ### Screenshot 3
 <div class="image-container">
-    <img src="Portfolio_Project.jpg" alt="Projects Page Screenshot" width="400" height="300">
+    <img src="Portfolio_Project.png" alt="Projects Page Screenshot" width="400" height="300">
 </div>
 
 
